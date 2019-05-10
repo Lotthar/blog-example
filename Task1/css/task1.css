@@ -1,0 +1,125 @@
+/* Rovcanin Branko 34/17 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------------- */
+
+/* Linkovi */
+a {
+    color: #42b4d6;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+}
+/* Podvucen link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------- */
+
+/* header */
+header {
+    background: url(../../images/header.jpg);
+    background-image: linear-gradient(top, rgba(0, 0, 0, .3));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+/* header tekst */
+header h4 {
+    max-width: 780px;
+    margin: auto;
+    padding-top: 242px;
+}
+
+/* ------------------------------------------ */
+
+/* Profilna sekcija */
+.profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+/* profilna slika */
+.profil img {
+    width: 100px;
+    margin: -50px auto 0 auto;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+/* Tekst ispod profilne slike */
+.profil h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+}
+
+/* specijalno za ime  */
+.ime {
+    font-weight: bold;
+}
+
+/* specijalno za datum */
+.datum {
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+/* --------------------------------------------------- */
+
+/* Sekcija za clanak */
+.clanak {
+    width: 66.67%;
+    margin: 0 auto 120px;
+    max-width: 780px;
+}
+
+/* Naslov clanka */
+.clanak h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+/* redni broj clanka */
+.clanak h1 span {
+    margin-left: -80px;
+    margin-right: 50px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+/* Paragrafi clanka */
+.clanak p {
+    margin-top: 20px 0 20px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+/* Recommandation paragraf*/
+.clanak p span {
+    font-weight: bold;
+}
+/* slika u clanku */
+.clanak img {
+    width: 100%;
+}
